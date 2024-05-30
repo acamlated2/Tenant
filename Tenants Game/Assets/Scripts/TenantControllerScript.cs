@@ -6,9 +6,8 @@ using UnityEngine;
 public class TenantControllerScript : MonoBehaviour
 {
     public static TenantControllerScript Instance;
-
-    private bool _tenantDisplayed;
-    private GameObject _displayedTenant;
+    
+    public GameObject displayedTenant;
 
     [SerializeField] private GameObject tenantPrefab;
 
@@ -23,7 +22,7 @@ public class TenantControllerScript : MonoBehaviour
 
         Instance = this;
 
-        if (!_tenantDisplayed)
+        if (!displayedTenant)
         {
             DisplayTenant();
         }
@@ -43,7 +42,7 @@ public class TenantControllerScript : MonoBehaviour
             RemoveTenant();
         }
 
-        if (!_displayedTenant)
+        if (!displayedTenant)
         {
             DisplayTenant();
         }
@@ -55,11 +54,11 @@ public class TenantControllerScript : MonoBehaviour
         newTenant.transform.position = _entryPos;
         newTenant.GetComponent<TenantScript>().InitiateTenant();
         newTenant.GetComponent<AnimateTenantScript>().EnterScene();
-        _displayedTenant = newTenant;
+        displayedTenant = newTenant;
     }
 
-    private void RemoveTenant()
+    public void RemoveTenant()
     {
-        _displayedTenant.GetComponent<AnimateTenantScript>().ExitScene();
+        displayedTenant.GetComponent<AnimateTenantScript>().ExitScene();
     }
 }

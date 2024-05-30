@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8910157753693628727
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1419914817491238792, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419914817491238792, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_Transition
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737383783592799537, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 4.299844
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737383783592799537, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.7436554
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737383783592799537, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737383783592799537, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737383783592799537, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737383783592799537, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737383783592799537, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737383783592799537, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737383783592799537, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2737383783592799537, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4923708528247740721, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8313017560569967451, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      propertyPath: m_Name
+      value: Floor Button
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 1412935976281616668, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8313017560569967451, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2420549616137602892}
+  m_SourcePrefab: {fileID: 100100000, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+--- !u!1 &647102353819998828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8313017560569967451, guid: a6e1b09563f77ec49a40a2644849d0ea, type: 3}
+  m_PrefabInstance: {fileID: 8910157753693628727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2420549616137602892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 647102353819998828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5c94606b02a7343a5766606a721845, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSprite: {fileID: 21300000, guid: 65f912366b8560b4683a163949b0fbdc, type: 3}
+  hoverSprite: {fileID: 21300000, guid: 9fcc29cbe40a16542bab9fce5a43e0f9, type: 3}

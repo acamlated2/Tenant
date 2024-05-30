@@ -13,6 +13,7 @@ public class TenantScript : MonoBehaviour
         Room3, 
         Room4, 
         Room5, 
+        Room6, 
     }
 
     public RoomNumber roomNumber = RoomNumber.Room1;
@@ -24,6 +25,7 @@ public class TenantScript : MonoBehaviour
         int randInt = GetRandomEnumIndex();
 
         GetComponent<SpriteRenderer>().sprite = tenantSprites[randInt];
+        roomNumber = (RoomNumber)randInt;
     }
     
     public static int GetRandomEnumIndex()
