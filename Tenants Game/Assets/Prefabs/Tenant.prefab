@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4307207009328200590}
   - component: {fileID: 6010892804365780105}
   - component: {fileID: 1931088753480321569}
+  - component: {fileID: 5988560410101898945}
   m_Layer: 0
   m_Name: Tenant
   m_TagString: Untagged
@@ -27,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 8966459008401476415}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.1723447, y: -0.4065116, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -97,3 +98,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b79c9115f7ab07a479000b441948f5b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5988560410101898945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8966459008401476415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5936c60484ae94f9eaedec9009488e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomNumber: 0
+  tenantSprites:
+  - {fileID: 21300000, guid: dbc0cbb3b2bbf1c43b40a8b5e698f3c1, type: 3}
+  - {fileID: 21300000, guid: e49f263a105edc542b97b1d5921881c5, type: 3}
+  - {fileID: 21300000, guid: d5bbb1d0b4046704795462354e7b81e4, type: 3}
+  - {fileID: 21300000, guid: 9fcc29cbe40a16542bab9fce5a43e0f9, type: 3}
+  - {fileID: 21300000, guid: 65f912366b8560b4683a163949b0fbdc, type: 3}
